@@ -47,13 +47,7 @@ var prefRevert =
 		var pane = prefRevert._prefWindow.preferencePanes[prefRevert._prefWindow._paneDeck.getAttribute("selectedIndex")];
 		var nodes = pane.getElementsByTagName("preference");
 
-		var params = { nodes: nodes, results: new Array(nodes.length) }
-		var dialog = openDialog("chrome://prefrevert/content/confirm.xul","","modal,dialog",params);
-		nodes=dialog.getElementsByTagName("checkbox");
-		for (var i=0; i<nodes.length; i++)
-		{
-			dump(nodes[i].id+"\n");
-		}
+		openDialog("chrome://prefrevert/content/confirm.xul","","modal,dialog",nodes);
   }
 };
 
