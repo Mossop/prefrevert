@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{507628d0-b479-4ece-b728-145a4f0c9b45}</em:id>
+    <em:version>0.5</em:version>
+    
+    <!-- Target Application this extension can install into, 
+        with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.0</em:minVersion>
+        <em:maxVersion>1.1+</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <!-- Front End MetaData -->
+    <em:name>Options Defaulter</em:name>
+    <em:description>Allows you to restore all options on an options page to their defaults.</em:description>
+    <em:creator>Dave Townsend</em:creator>
+    <em:homepageURL>http://www.blueprintit.co.uk/~dave/web/firefox/prefrevert/index.html</em:homepageURL>
+    <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/prefrevert/prefrevert.rdf</em:updateURL>
+    <em:iconURL>chrome://prefrevert/skin/icon.png</em:iconURL>
+    
+  </Description>      
+</RDF>

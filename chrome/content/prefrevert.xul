@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<!--
+$HeadURL$
+$LastChangedBy$
+$Date$
+$Revision$
+
+The overlay to a preferences window to add the revert button.
+-->
+
+<overlay id="RevertOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://prefrevert/content/prefrevert.js"/>
+
+</overlay>

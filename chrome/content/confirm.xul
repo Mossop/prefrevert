@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://browser/skin/" type="text/css"?> 
+
+<!DOCTYPE dialog [
+<!ENTITY % revertDTD SYSTEM "chrome://prefrevert/locale/prefrevert.dtd">
+%revertDTD;
+]>
+
+<dialog
+    id="RevertConfirmation"
+    title="&revertConfirm.title;"
+    buttons="accept,cancel"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://prefrevert/content/confirm.js"/>
+	<stringbundle id="prefDescriptions" src="chrome://prefrevert/locale/preferences.properties"/>
+
+	<description>&revertConfirm.description;</description>
+	
+	<vbox id="preflist" align="start">
+	</vbox>
+	
+</dialog>
