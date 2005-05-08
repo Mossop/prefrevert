@@ -1,4 +1,4 @@
-content	prefrevert	jar:chrome/prefrevert.jar!/content/
-skin	prefrevert	classic/1.0	jar:chrome/prefrevert.jar!/skin/
-locale	prefrevert	en-US	jar:chrome/prefrevert.jar!/locale/en-US/
+content	prefrevert	file:chrome/content/
+skin	prefrevert	classic/1.0	file:chrome/skin/
+locale	prefrevert	en-US	file:chrome/locale/en-US/
 overlay	chrome://browser/content/preferences/preferences.xul	chrome://prefrevert/content/prefrevert.xul

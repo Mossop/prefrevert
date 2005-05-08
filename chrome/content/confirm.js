@@ -69,11 +69,11 @@ var confirmSetup =
 			if (confirmSetup._choices[i])
 			{
 				dump("Reverting "+confirmSetup._nodes[i].name+"\n");
-        /*if (confirmSetup._nodes[i].hasUserValue)
+        if (confirmSetup._nodes[i].hasUserValue)
         {
           confirmSetup._nodes[i].reset();
         }
-        confirmSetup._nodes[i]._setValue(confirmSetup._nodes[i].valueFromPreferences,false);*/
+        confirmSetup._nodes[i]._setValue(confirmSetup._nodes[i].valueFromPreferences,false);
 			}
 		}
   },
